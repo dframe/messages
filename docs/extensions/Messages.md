@@ -8,7 +8,7 @@ You have two type params for **adding** *(First)* and for **display** *(Second)*
 ##### Methods example #1
 Just display after add.
 ```php
-use Dframe\Messages;
+use Dframe\Component\Messages;
 use Dframe\Session;
 
 include_once 'vendor/autoload.php';
@@ -29,7 +29,7 @@ var_dump($msg->display('success'));
 ##### Methods example #2*
 Set message and refresh/redirect
 ```php
-use Dframe\Messages;
+use Dframe\Component\Messages\Messages;
 use Dframe\Router;
 use Dframe\Session;
 
@@ -60,7 +60,7 @@ $router->redirect('page/index');
 ##### Methods example #3
 
 ```php
-use Dframe\Messages;
+use Dframe\Component\Messages\Messages;
 use Dframe\Session;
 
 include_once 'vendor/autoload.php';

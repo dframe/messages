@@ -7,8 +7,10 @@
  * @license https://github.com/dframe/dframe/blob/master/LICENCE (MIT)
  */
 
-namespace Dframe;
+namespace Dframe\Component\Messages;
 
+use Dframe\BaseException;
+use Dframe\Router;
 use Dframe\Router\Response;
 
 /**
