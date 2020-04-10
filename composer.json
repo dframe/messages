@@ -32,7 +32,7 @@
         }
     },
     "require-dev": {
-        "dframe/dframe": "^4.0",
+        "dframe/session": "^4.0",
         "phpunit/phpunit": "^6.5"
     },
     "scripts": {
