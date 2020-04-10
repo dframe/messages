@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xampp\htdocs\dframe-messages\tests" tests="4" assertions="6" errors="0" failures="0" skipped="0" time="0.022521">
+    <testsuite name="Dframe\Component\Token\Tests\MessagesTest" file="C:\xampp\htdocs\dframe-messages\tests\MessagesTest.php" tests="4" assertions="6" errors="0" failures="0" skipped="0" time="0.022521">
+      <testcase name="testConstructor" class="Dframe\Component\Token\Tests\MessagesTest" classname="Dframe.Component.Token.Tests.MessagesTest" file="C:\xampp\htdocs\dframe-messages\tests\MessagesTest.php" line="11" assertions="1" time="0.016597"/>
+      <testcase name="testConstructorThrowsExceptionOnInvalidDriver" class="Dframe\Component\Token\Tests\MessagesTest" classname="Dframe.Component.Token.Tests.MessagesTest" file="C:\xampp\htdocs\dframe-messages\tests\MessagesTest.php" line="18" assertions="2" time="0.002184"/>
+      <testcase name="testClear" class="Dframe\Component\Token\Tests\MessagesTest" classname="Dframe.Component.Token.Tests.MessagesTest" file="C:\xampp\htdocs\dframe-messages\tests\MessagesTest.php" line="26" assertions="1" time="0.002692"/>
+      <testcase name="testError" class="Dframe\Component\Token\Tests\MessagesTest" classname="Dframe.Component.Token.Tests.MessagesTest" file="C:\xampp\htdocs\dframe-messages\tests\MessagesTest.php" line="35" assertions="2" time="0.001048"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

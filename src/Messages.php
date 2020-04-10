@@ -50,7 +50,7 @@ class Messages
     {
         $this->driver = $driver;
         if (!($this->driver instanceof \Psr\SimpleCache\CacheInterface) === true) {
-            throw new \Exception("This class Require instance Of Psr\SimpleCache\CacheInterface", 1);
+            throw new \Exception("This class Require instance Of \Psr\SimpleCache\CacheInterface", 1);
         }
 
         // Generate a unique ID for this user and session
@@ -81,7 +81,9 @@ class Messages
             $type = str_replace(['h', 'i', 'w', 'e', 's'], ['help', 'info', 'warning', 'error', 'success'], $type);
         }
 
-        $router = new Router();
+        if (class_exists('\Dframe\Router')) {
+            $router = new Router();
+        }
 
         try {
             if (!in_array($type, $this->msgTypes)) {  // Make sure it's a valid message type
